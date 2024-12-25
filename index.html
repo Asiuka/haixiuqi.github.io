@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>个人主页</title>
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li>首页</li>
+            <li>关于我</li>
+            <li>技能</li>
+            <li>联系</li>
+        </ul>
+    </nav>
+
+    <!-- 首页部分 -->
+    <section id="home">
+        <h1>欢迎来到我的个人主页</h1>
+        <p>这里简单展示下我的一些信息和经历哦。</p >
+    </section>
+
+    <!-- 关于我部分 -->
+    <section id="about-me">
+    <h2>关于我</h2>
+    < img src="avatar.jpg" alt="我的照片" width="150" height="150">
+    <p>我叫李品根，目前在读大学，平时对互联网很感兴趣，一直在不断学习和探索新事物呢。</p >
+</section>
+    <!-- 技能部分 -->
+    <section id="skills">
+        <h2>技能</h2>
+        <div class="skill">
+            <span>HTML/CSS</span>
+            <progress value="20" max="100"></progress>
+        </div>
+        <div class="skill">
+            <span>JavaScript</span>
+            <progress value="20" max="100"></progress>
+        </div>
+        <div class="skill">
+            <span>Python</span>
+            <progress value="10" max="100"></progress>
+        </div>
+    </section>
+
+    <!-- 联系部分 -->
+    <section id="contact">
+        <h2>联系我</h2>
+        <form action="">
+            <label for="name">姓名：</label><input type="text" id="name" required><br>
+            <label for="email">邮箱：</label><input type="email" id="email" required><br>
+            <label for="message">留言：</label><textarea id="message"></textarea><br>
+            <input type="submit" value="提交">
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
